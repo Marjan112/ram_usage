@@ -35,7 +35,7 @@ int main() {
     const double percentage = (using_kib / (double)total_kib) * 100;
 
     if (using_mib >= 1024) printf("RAM: %.1lf GiB/%.1lf GiB (%.1lf%)\n", using_gib, total_gib, percentage);
-    else printf("RAM: %.1lf MiB/%.1lf GiB\n (%.1lf%)", using_mib, total_gib, percentage);
+    else printf("RAM: %.1lf MiB/%.1lf GiB (%.1lf%)\n", using_mib, total_gib, percentage);
 
     return 0;
 }
